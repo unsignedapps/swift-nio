@@ -115,6 +115,15 @@ let package = Package(
         .library(name: "NIOFoundationCompat", targets: ["NIOFoundationCompat"]),
         .library(name: "NIOWebSocket", targets: ["NIOWebSocket"]),
         .library(name: "NIOTestUtils", targets: ["NIOTestUtils"]),
+
+        // Extras
+        .library(name: "CNIODarwin", targets: [ "CNIODarwin" ]),
+        .library(name: "CNIOHTTPParser", targets: [ "CNIOHTTPParser" ]),
+        .library(name: "CNIOLinux", targets: [ "CNIOLinux" ]),
+        .library(name: "CNIOWindows", targets: [ "CNIOWindows" ]),
+        .library(name: "NIOPosix", targets: [ "NIOPosix" ]),
+        .library(name: "NIOTLS", targets: [ "NIOTLS" ]),
+
     ],
     dependencies: [
     ],
