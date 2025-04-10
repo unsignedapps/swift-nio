@@ -117,6 +117,7 @@ let package = Package(
         .library(name: "NIOTestUtils", targets: ["NIOTestUtils"]),
 
         // Extras
+        .library(name: "_NIODataStructures", targets: ["_NIODataStructures"]),
         .library(name: "CNIODarwin", targets: [ "CNIODarwin" ]),
         .library(name: "CNIOHTTPParser", targets: [ "CNIOHTTPParser" ]),
         .library(name: "CNIOLinux", targets: [ "CNIOLinux" ]),
