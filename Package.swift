@@ -123,8 +123,6 @@ let package = Package(
         .library(name: "CNIOHTTPParser", targets: [ "CNIOHTTPParser" ]),
         .library(name: "CNIOLinux", targets: [ "CNIOLinux" ]),
         .library(name: "CNIOWindows", targets: [ "CNIOWindows" ]),
-        .library(name: "NIOPosix", targets: [ "NIOPosix" ]),
-        .library(name: "NIOTLS", targets: [ "NIOTLS" ]),
 
     ],
     dependencies: [
