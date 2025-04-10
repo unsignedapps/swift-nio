@@ -118,6 +118,7 @@ let package = Package(
 
         // Extras
         .library(name: "_NIODataStructures", targets: ["_NIODataStructures"]),
+        .library(name: "CNIOAtomics", targets: ["CNIOAtomics"]),
         .library(name: "CNIODarwin", targets: [ "CNIODarwin" ]),
         .library(name: "CNIOHTTPParser", targets: [ "CNIOHTTPParser" ]),
         .library(name: "CNIOLinux", targets: [ "CNIOLinux" ]),
